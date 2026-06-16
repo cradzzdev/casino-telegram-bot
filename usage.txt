@@ -1,0 +1,8 @@
+Start:
+cd /Users/cradzz/taixiu-bot && python3 taixiu_bot.py
+
+Start BG:
+cd /Users/cradzz/taixiu-bot && nohup python3 taixiu_bot.py
+
+Stop:
+pkill -f "python3 taixiu_bot.py
