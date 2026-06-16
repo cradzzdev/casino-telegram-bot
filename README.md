@@ -138,7 +138,6 @@ git clone <repo-url> taixiu-bot
 
 ### Bước 4: Cấu hình Token
 
-**Sửa trực tiếp trong code**
 Mở `taixiu_bot.py`, tìm dòng:
 ```python
 return "YOUR_TELEGRAM_TOKEN_BOT"
@@ -164,7 +163,7 @@ pip3 install python-telegram-bot --upgrade
 cd ~/taixiu-bot
 python3 taixiu_bot.py
 ```
-
+#### Tạo thêm "taixiu.db" để lưu data người chơi
 Thấy dòng `Bot is running...` hoặc `Started` = thành công.
 
 ### Bước 7: Test
